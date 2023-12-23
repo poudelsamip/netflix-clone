@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/mainbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 15px 12%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+#netflix-logo{
+    height: 40px;
+}
+nav button{
+    background-color: rgb(231, 11, 11);
+    font-size: 13px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.headercontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 50px;
+}
+.headercontent h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 700px;
+}
+.headercontent h3{
+    font-weight: 400;
+    margin: 15px 0;
+}
+.headercontent p{
+    margin-bottom: 10px;
+}
+form input{
+    height: 50px;
+    width: 50%;
+    padding-left: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #000000a6;
+    color: white;
+}
+form button{
+    height: 50px;
+    width: 20%;
+    color: #fff;
+    background-color: rgb(245, 32, 32);
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+/* ----------------- features rows ----------------- */
+
+.f1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 12%;
+    overflow: hidden;
+    padding: 50px 12%;
+}
+.f2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 12%;
+    overflow: hidden;
+    padding: 50px 12%;
+}
+.f-text{
+    width: 50%;
+}
+.f-img{
+    width: 50%;
+}
+.f-img img{
+    max-width: 400px;
+}
+.features h1{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.features p{
+    font-size: 20px;
+}
+hr{
+    height: 10px;
+    background: #ffffff18;
+    border: none;
+}
+
+
+
+/* ------------------------ FAQS ----------------------- */
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 13%;
+}
+.ques-row{
+    padding: 20px 20px;
+    display: flex;
+    width: 100%;
+    background-color: #464646fd;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.add{
+    margin-left: auto;
+}
+.ans{
+    cursor: pointer;
+    margin-top: 1px;
+    background-color: #464646fd;
+    padding: 15px 20px;
+    display: none;
+    font-size: 20px;
+}
+.faqs h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+
+
+.againbtns{
+    padding: 50px 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.againbtns form{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+input::placeholder{
+    color: white;
+}
+.links{
+    padding: 50px 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.all-link{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+a{
+    color: white;
+    margin: 8px 0;
+    font-size: 13px;
+}

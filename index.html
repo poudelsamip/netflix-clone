@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samip Poudel | Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/netflixlogo.png" id="netflix-logo" alt="Netflix Logo">
+            <button>Sign In</button>
+        </nav>
+        <div class="headercontent">
+            <h1>Unlimited movies, TV shows, and more</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form>
+                <input type="email" placeholder="Email Address">
+                <button>Get Started > </button>
+            </form>
+        </div>
+    </header>
+    <div class="features">
+        <hr class="line">
+        <div class="feature-rows f1">
+            
+            <div class="f-text">
+                <h1>Enjoy on your TV</h1>
+                <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+            </div>
+            <div class="f-img">
+                <img src="images/feature-1.png">
+            </div>
+        </div>
+        <hr class="line">
+        <div class="feature-rows f2">
+            
+            <div class="f-text">
+                <h1>Download your shows to watch offline</h1>
+                <p>Save your favorites easily and always have something to watch.</p>
+            </div>
+            <div class="f-img">
+                <img src="images/feature-2.png">
+            </div>
+        </div>
+        <hr class="line">
+        <div class="feature-rows f1">
+            
+            <div class="f-text">
+                <h1>Watch everywhere</h1>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="f-img">
+                <img src="images/feature-3.png">
+            </div>
+        </div>
+        <hr class="line">
+        <div class="feature-rows f2">
+            
+            <div class="f-text">
+                <h1>Create profiles for kids</h1>
+                <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+            </div>
+            <div class="f-img">
+                <img src="images/feature-4.png">
+            </div>
+        </div>
+        <hr class="line">
+    </div>
+
+    <div class="faqs">
+        <h1 >Freuently Asked Questions</h1>
+        <div class="ques-row" onclick="showans1(); hideans2(); hideans3(); hideans4(); hideans5()">
+            <div class="que">What is Netflix?</div>
+            <div class="add">+</div>
+        </div>
+        <div class="ans ans1" onclick="hideans1() ">
+            Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.<br>
+            You can watch as much as you want, whenever you want without a single commercial  all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+        </div>
+        <div class="ques-row" onclick="showans2(); hideans1();  hideans3();hideans4(); hideans5()">
+            <div class="que">How much does Netflix cost?</div>
+            <div class="add">+</div>
+        </div>
+        <div class="ans ans2" onclick="hideans2()">
+            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from USD 2.99 to USD 9.99 a month. No extra costs, no contracts.
+        </div>
+        
+        <div class="ques-row" onclick="showans3(); hideans1();hideans2();hideans4(); hideans5()">
+            <div class="que">Where can I watch?</div>
+            <div class="add">+</div>
+        </div>
+        <div class="ans ans3" onclick="hideans3()">
+            Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+        </div>
+        <div class="ques-row" onclick="showans4();hideans1(); hideans2(); hideans3(); hideans5()">
+            <div class="que">How do I cancel?</div>
+            <div class="add">+</div>
+        </div>
+        <div class="ans ans4" onclick="hideans4()">
+            Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+        </div>
+        <div class="ques-row" onclick="showans5(); hideans1(); hideans2(); hideans3(); hideans4()">
+            <div class="que">What can I watch on Netflix?</div>
+            <div class="add">+</div>
+        </div>
+        <div class="ans ans5" onclick="hideans5()">
+            Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+        </div>
+        
+    </div>
+
+    <div class="againbtns">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <form>
+            <input type="email" placeholder="Email Address">
+            <button>Get Started > </button>
+        </form>
+    </div>
+
+    <hr class="line">
+
+    <div class="links">
+        <div class="all-link">
+            <a href="#">FAQ</a>
+            <a href="#">Investor relation</a>
+            <a href="#">Privacy</a>
+            <a href="#">Speed test</a>
+        </div>
+        <div class="all-link">
+            <a href="#">Help Center</a>
+            <a href="#">Jobs</a>
+            <a href="#">Cookie Preference</a>
+            <a href="#">Legal Notices</a>
+        </div>
+        <div class="all-link">
+            <a href="#">Accounts</a>
+            <a href="#">Ways to watch</a>
+            <a href="#">Corporate Information</a>
+            <a href="#">Only on netflix</a>
+        </div>
+        <div class="all-link">
+            <a href="#">Media Center</a>
+            <a href="#">Terms of Services</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+    <a target="_blank" href="https://www.samip-poudel.com.np/">Samip Poudel</a>
+
+<script src="script.js"></script>    
+</body>
+</html>
