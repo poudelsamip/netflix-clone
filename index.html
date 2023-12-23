@@ -7,21 +7,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="allsite">
     <header>
         <nav>
-            <img src="images/netflixlogo.png" id="netflix-logo" alt="Netflix Logo">
-            <button>Sign In</button>
+            <img class="netflix-logo" src="images/netflixlogo.png">
+            <button class="sign-in">Sign In</button>
         </nav>
-        <div class="headercontent">
+        <div class="header-content">
             <h1>Unlimited movies, TV shows, and more</h1>
             <h3>Watch anywhere. Cancel anytime.</h3>
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
-            <form>
-                <input type="email" placeholder="Email Address">
-                <button>Get Started > </button>
-            </form>
+            <div class="form-div">
+                <form>
+                    <input type="email" class="input-email inp-feild" placeholder="Email Address">
+                    <input type="submit" value="Get Started >" class="input-email send-btn">
+                </form>
+            </div>
         </div>
     </header>
+
+
     <div class="features">
         <hr class="line">
         <div class="feature-rows f1">
@@ -71,7 +76,7 @@
     </div>
 
     <div class="faqs">
-        <h1 >Freuently Asked Questions</h1>
+        <h1 >Frequently Asked Questions</h1>
         <div class="ques-row" onclick="showans1(); hideans2(); hideans3(); hideans4(); hideans5()">
             <div class="que">What is Netflix?</div>
             <div class="add">+</div>
@@ -112,13 +117,7 @@
         
     </div>
 
-    <div class="againbtns">
-        <p>Ready to watch? Enter your email to create or restart your membership.</p>
-        <form>
-            <input type="email" placeholder="Email Address">
-            <button>Get Started > </button>
-        </form>
-    </div>
+    
 
     <hr class="line">
 
@@ -147,8 +146,10 @@
             <a href="#">Contact Us</a>
         </div>
     </div>
-    <a target="_blank" href="https://www.samip-poudel.com.np/">Samip Poudel</a>
-
+    <div class="samip">
+        <span>This clone is created by <a target="_blank" href="https://www.samip-poudel.com.np/">Samip Poudel</a></span>
+    </div>
+</div>
 <script src="script.js"></script>    
 </body>
 </html>
