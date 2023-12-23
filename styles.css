@@ -79,7 +79,7 @@ header h3{
     border: 0;
     border-radius: 5px;
     cursor: pointer;
-    width: auto;
+    width: max-content;
 }
 /* ----------------- features rows ----------------- */
 
@@ -162,20 +162,26 @@ hr{
 .links{
     margin: 75px 0;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0 12%;
     flex-wrap: wrap;
 }
 .all-link{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin-right: 15px;
 }
 a{
     color: white;
     margin: 8px 0;
     font-size: 13px;
+}
+.links-1, .links-2{
+    display: flex;
+    flex-direction: row;
 }
 
 .samip{
@@ -184,11 +190,14 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .samip span , .samip a{
     font-size: 18px;
 }
-@media (max-width: 767px){
+
+
+@media (max-width: 950px){
     
    
     
@@ -224,11 +233,18 @@ a{
         font-size: 35px;
         padding: 0%;
         line-height: 50px;
+        text-align: center;
+    }
+    .f-text p{
+        text-align: center;
     }
     .faqs h1{
         font-size: 35px;
     }
     .all-link{
-        width: 50%;
+        margin-right: 50px;
+    }
+    .links-1, .links-2{
+        width: 100%;
     }
 }
